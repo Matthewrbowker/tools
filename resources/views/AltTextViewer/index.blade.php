@@ -7,7 +7,8 @@
         </div>
         <div class="form-group">
             <label for="wikiURL">Wiki URL</label>
-            <input type="text" class="form-control" id="wikiURL" name="wikiURL" placeholder="Enter wiki URL">
+            <!--input type="text" class="form-control" id="wikiURL" name="wikiURL" placeholder="Enter wiki URL"-->
+            <span class="input-group-text">https://en.wikipedia.org/</span>
         </div>
         <div class="form-group">
             <label for="mode">Parser mode: </label>

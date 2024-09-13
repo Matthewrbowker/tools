@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home/index');
 });
 
 Route::get("/alttextviewer", [App\Http\Controllers\AltTextViewerController::class, "index"])->name("alttextviewer.index");
